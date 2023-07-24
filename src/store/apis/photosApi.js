@@ -4,7 +4,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 const photosApi = createApi({
     reducerPath:'photos',
     baseQuery: fetchBaseQuery({
-        baseUrl: 'http://localhost:3005'
+        baseUrl: 'https://media-backend-zfrw.onrender.com'
     }),
     endpoints(builder) {
         return {
